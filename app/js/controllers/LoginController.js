@@ -41,9 +41,10 @@ angular.module('juiceShop').controller('LoginController', [
     }
 
     var oauthProviderUrl = 'https://accounts.google.com/o/oauth2/v2/auth'
-    var clientId = '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+    var clientId = '57730365477-sre3u5196e311tsok8tp4mqt169t2qlh.apps.googleusercontent.com'
 
     var authorizedRedirectURIs = {
+      'https://ps-js.herokuapp.com': 'https://ps-js.herokuapp.com',
       'http://demo.owasp-juice.shop': 'http://demo.owasp-juice.shop',
       'https://juice-shop.herokuapp.com': 'https://juice-shop.herokuapp.com',
       'http://juice-shop.herokuapp.com': 'http://juice-shop.herokuapp.com',
